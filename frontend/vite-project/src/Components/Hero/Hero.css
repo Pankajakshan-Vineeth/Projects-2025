@@ -1,0 +1,73 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    justify-content: space-between; /* Pushes text and image apart */
+    align-items: center;
+    padding: 0 10%; /* Adjusts left and right spacing */
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Makes sure all items align left */
+    gap: 10px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left p {
+    width: auto; /* Avoid forcing a fixed width */
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.hero-latest-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 250px;
+    height: 60px;
+    border-radius: 50px;
+    background: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px; /* Push it below */
+    align-self: flex-start; /* Ensures it stays left-aligned under text */
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Ensures image stays on the right */
+    align-items: center;
+    background-color: transparent;
+}
+
+.hero-right img {
+    max-width: 500px; /* Ensures image does not overflow */
+    height: auto;
+}
+
+.hero-left-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+}
+
+.hand-hand-icon{
+    display: flex;
+    align-items: center; /* Align text and image */
+    gap: 10px; /* Space between text and emoji */
+}
+
+.hand-icon {
+    width: 130px;  /* Adjust size */
+    height: auto;
+}
